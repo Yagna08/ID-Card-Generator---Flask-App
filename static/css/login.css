@@ -1,0 +1,88 @@
+/* From Uiverse.io by Smit-Prajapati */
+body {
+    background-color: #fdf4f1;
+}
+
+.container-outer {
+    height: 70%;
+    position: relative;
+}
+
+.container {
+    max-width: 350px;
+    background: #F8F9FD;
+    background: linear-gradient(0deg, #fff 0%, #ffa673 100%);
+    border-radius: 40px;
+    padding: 25px 35px;
+    /* border: 5px solid rgb(255, 255, 255); */
+    box-shadow: #d1a6a5 30px 30px 30px 0;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: #8b2926;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form .input {
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: #d1a6a5 10px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+}
+
+.form .input::-moz-placeholder {
+    color: #4b4b4b;
+}
+
+.form .input::placeholder {
+    color: #4b4b4b;
+}
+
+.form .input:focus {
+    outline: none;
+    border-inline: 2px solid #ffa673;
+}
+
+.form .login-button {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: linear-gradient(45deg, #8b2926 0%, #ffa673 100%);
+    color: white;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: #d1a6a5 10px 10px 10px -3px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.form .login-button:hover {
+    transform: scale(1.03);
+}
+
+.form .login-button:active {
+    transform: scale(0.95);
+}
